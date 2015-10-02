@@ -7,7 +7,7 @@ app.set('views', './views');
 app.set('view engine', 'jade');
 
 var stormpathMiddleware = stormpath.init(app, {
-  apiKeyFile: '/Users/Esmond/Downloads/.stormpath/apiKey.properties',
+  apiKeyFile: '/Users/Esmond/Downloads/apiKey-66M0EZSHNM9DEJAKBNM6R7Y41.properties',
   application: 'https://api.stormpath.com/v1/applications/3vA1OvjfE2hwvA7sZIH9fB',
   secretKey: 'hSPkD7I2WyHd8a8ojjwL6+supQ5GyG18oCkvN3BHsLM',
   expandCustomData: true,
